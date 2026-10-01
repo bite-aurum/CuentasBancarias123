@@ -64,4 +64,8 @@ public class Cuenta {
         System.out.println("Titular: " + titular);
         System.out.println("Saldo: $" + saldo);
     }
+    // Regresa un texto con los datos de la cuenta (para ponerlo en la ventana)
+    public String datos() {
+        return "Titular: " + titular + "  |  Saldo: $" + saldo;
+    }
 }
